@@ -35,6 +35,13 @@ async def hato(ctx):
 async def buta(ctx):
     await ctx.send('ぶひぶひ')
 
+@bot.command()
+async def marimo(ctx):
+    await ctx.send('モロヘイヤ！')
+    
+@bot.command()
+async def niwatori(ctx):
+    await ctx.send('こけこっこー')
 
 
 bot.run(token)

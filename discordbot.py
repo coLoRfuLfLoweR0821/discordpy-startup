@@ -42,6 +42,10 @@ async def marimo(ctx):
 @bot.command()
 async def niwatori(ctx):
     await ctx.send('こけこっこー')
+    
+@bot.command()
+async def maguro(ctx):
+    await ctx.send('ノア・バルゴ')
 
 
 bot.run(token)

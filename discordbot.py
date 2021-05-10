@@ -20,11 +20,11 @@ async def ping(ctx):
 '''
     
 @bot.command()
-async def cat(ctx):
+async def neko(ctx):
     await ctx.send('にゃーん')
     
 @bot.command()
-async def dog(ctx):
+async def inu(ctx):
     await ctx.send('わんわん')
 
 

@@ -30,6 +30,11 @@ async def inu(ctx):
 @bot.command()
 async def hato(ctx):
     await ctx.send('くるっぽー')
+    
+@bot.command()
+async def buta(ctx):
+    await ctx.send('ぶひぶひ')
+
 
 
 bot.run(token)

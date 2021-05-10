@@ -20,6 +20,10 @@ async def ping(ctx):
 @bot.command()
 async def cat(ctx):
     await ctx.send('にゃーん')
+    
+@bot.command()
+async def dog(ctx):
+    await ctx.send('わんわん')
 
 
 bot.run(token)

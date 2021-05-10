@@ -26,6 +26,10 @@ async def neko(ctx):
 @bot.command()
 async def inu(ctx):
     await ctx.send('わんわん')
+    
+@bot.command()
+async def hato(ctx):
+    await ctx.send('くるっぽー')
 
 
 bot.run(token)

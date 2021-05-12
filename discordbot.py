@@ -47,5 +47,9 @@ async def niwatori(ctx):
 async def maguro(ctx):
     await ctx.send('ノア・バルゴ')
 
+@bot.command()
+async def kurumi(ctx):
+    await ctx.send(':tophat:<ｲｵｽ......')
+
 
 bot.run(token)

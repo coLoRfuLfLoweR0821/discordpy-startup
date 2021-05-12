@@ -37,7 +37,7 @@ async def buta(ctx):
 
 @bot.command()
 async def marimo(ctx):
-    await ctx.send('モロヘイヤ！')
+    await ctx.send('(ツ)<ﾓﾛﾍｲﾔｯ')
     
 @bot.command()
 async def niwatori(ctx):

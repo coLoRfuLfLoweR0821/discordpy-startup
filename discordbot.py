@@ -51,5 +51,8 @@ async def maguro(ctx):
 async def kurumi(ctx):
     await ctx.send(':tophat:<ｲｵｽ......')
 
+@bot.command()
+async def dancing(ctx):
+    await ctx.send('（ツ）ｺﾛﾝｺﾛﾝ')
 
 bot.run(token)

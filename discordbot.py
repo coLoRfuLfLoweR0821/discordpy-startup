@@ -55,4 +55,9 @@ async def kurumi(ctx):
 async def dancing(ctx):
     await ctx.send('（ツ）ｺﾛﾝｺﾛﾝ')
 
+@bot.command()
+async def yes(ctx):
+    await ctx.send('(ツ)<ｿｳ!')
+
+    
 bot.run(token)

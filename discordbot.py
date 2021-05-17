@@ -59,5 +59,24 @@ async def dancing(ctx):
 async def yes(ctx):
     await ctx.send('(ツ)<ｿｳ!')
 
+@bot.command()
+async def rice(ctx):
+    await ctx.send('コメ・バルゴ')
+    
+@bot.command()
+async def morning(ctx):
+    await ctx.send('アサ・バルゴ')
+    
+@bot.command()
+async def noon(ctx):
+    await ctx.send('ヒル・バルゴ')
+    
+@bot.command()
+async def night(ctx):
+    await ctx.send('ヨル・バルゴ')
+
+
+
+
     
 bot.run(token)

@@ -90,5 +90,9 @@ async def noon(ctx):
 async def night(ctx):
     await ctx.send('ヨル・バルゴ')
 
+@bot.command()
+async def test(ctx):
+    await ctx.send('テスト用')
+
    
 bot.run(token)

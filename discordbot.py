@@ -1,6 +1,7 @@
 from discord.ext import commands
 import os
 import traceback
+import numpy as np
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
@@ -27,7 +28,13 @@ async def ping(ctx):
     
 @bot.command()
 async def neko(ctx):
-    await ctx.send('にゃーん')
+    a = np.randam.randint(1, 3)
+    if a == 1:
+        await ctx.send('にゃごにゃご')
+    elif a == 2:
+        await ctx.send('にゃーん')
+    else:
+        await ctx.send('ごろにゃん')
     
 @bot.command()
 async def inu(ctx):

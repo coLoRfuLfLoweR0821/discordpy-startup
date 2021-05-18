@@ -28,11 +28,13 @@ async def ping(ctx):
     
 @bot.command()
 async def neko(ctx):
-    a = np.randam.randint(1, 3)
+    a = np.randam.randint(1, 4)
     if a == 1:
         await ctx.send('にゃごにゃご')
     elif a == 2:
         await ctx.send('にゃーん')
+    elif a == 3:
+        await ctx.send('ふしゃー！')
     else:
         await ctx.send('ごろにゃん')
     

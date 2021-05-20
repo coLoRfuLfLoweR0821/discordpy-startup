@@ -25,7 +25,7 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send('pong')
 '''
-    
+'''
 @bot.command()
 async def neko(ctx):
     a = np.randam.randint(1, 4)
@@ -37,6 +37,7 @@ async def neko(ctx):
         await ctx.send('ふしゃー！')
     else:
         await ctx.send('ごろにゃん')
+'''
     
 @bot.command()
 async def inu(ctx):
